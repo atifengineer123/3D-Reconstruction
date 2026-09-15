@@ -57,12 +57,6 @@ For testing our models we used several images of different objects. The dataset 
 </p>
 <p align="center"> Figure 1: Shows sample input images of Gustav II Adolf statue and the corresponding 3D reconstruction at the bottom right (Bundle Adjustment was not applied to this reconstruction).  </p>
 
-<p align="center">
-  <img src="imgs/Bundle-OnVsOff.png" />
-</p>
-<p align="center"> Figure 3: Shows image reconstructed using Bundle adjustment on the left, without Bundle Adjustment on the right.
-</p>
-
 In our experiments, the Bundle Adjustment algorithm takes a very long time on large images. Hence we were able to only use it for smaller image datasets. We can obtain relatively decent 3D representation without applying bundle adjustment. However, applying bundle adjustment leads to better reconstruction quality. 
 
 # Future Work
